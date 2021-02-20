@@ -53,12 +53,12 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orange[600],
+      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         title: Text("Etanol ou Gasolina", style: TextStyle(
           color: Colors.white, fontWeight: FontWeight.bold
         ),),
-        backgroundColor: Colors.orange[800]
+        backgroundColor: Colors.blue[800]
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -68,7 +68,10 @@ class _HomeState extends State<Home> {
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.only(bottom: 32),
-                child: Image.asset("imagens/combustivel.jpg"),
+                child:Container(
+                  width: double.infinity,
+                  child:  Image.asset("imagens/combustivel2.jpg", fit: BoxFit.cover,),
+                )
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: 10),
