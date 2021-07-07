@@ -13,7 +13,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto Alcool ou Gasolina, consiste em um aplicativo para calcular e verificar qual o melhor combustível na hora de abastecer.
+O projeto Alcool ou Gasolina, consiste em um aplicativo para calcular e verificar qual o melhor combustível na hora de abastecer com base na diferença de preço entre o Etanol e a Gasolina.
+
+## 📱 Screenshots
+<div>
+  <img src="https://github.com/jhonathanqz/Alcool_ou_Gasolina/blob/master/screenshots/home1.jpg" width="600px" style="max-width:100%;" alt="imagem do projeto">
+</div>
+
 ## ▶️ Como executar
 
 - Clone o repositório
